@@ -1,0 +1,14 @@
+# hello-world
+function myFunction (); {
+var a = 10;
+var b = 11; 
+alert ( a * b );
+}
+myFunction ();
+
+function myFunction (); {
+var result = a * b;
+return result;
+}
+var x = myFunction (10, 11);
+alert (x);
