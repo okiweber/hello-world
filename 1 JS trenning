@@ -12,3 +12,24 @@ return result;
 }
 var x = myFunction (10, 11);
 alert (x);
+
+var myArray = [];
+myArray [0] = 9212;
+myArray [1] = "test";
+
+var myArray = [99, 100, "abc", 2];
+
+alert(myArray[0]);
+
+var myArray = [ 23, 44, "test", 99];
+alert (myArray[3]);
+
+alert(myArray.length);
+
+alert(myArray.sort());
+
+var i = 0;
+while (i < myArray.length) {
+alert(myArray[i]);
+i++;
+}
